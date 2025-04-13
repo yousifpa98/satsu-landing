@@ -197,9 +197,9 @@ export default function TermsPage() {
             <p className="text-zinc-300 mb-2">
               If you have questions about these terms, reach out any time:
             </p>
-            <a href="mailto:hello@satsu.dev" className="text-violet-400 hover:text-violet-300 flex items-center justify-center gap-2">
+            <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300 flex items-center justify-center gap-2">
               <Mail className="h-4 w-4" />
-              hello@satsu.dev
+              hello@satsu.app
             </a>
           </div>
         </div>

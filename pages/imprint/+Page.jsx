@@ -159,11 +159,11 @@ export default function ImprintPage() {
                 : "Bei Fragen kontaktieren Sie uns jederzeit:"}
             </p>
             <a 
-              href="mailto:hello@satsu.dev" 
+              href="mailto:hello@satsu.app" 
               className="inline-flex items-center justify-center gap-2 bg-violet-500/10 hover:bg-violet-500/20 text-violet-400 hover:text-violet-300 px-5 py-2 rounded-full transition-all duration-300 border border-violet-500/20 hover:border-violet-500/40 shadow-lg shadow-violet-900/10"
             >
               <Mail className="h-4 w-4" />
-              hello@satsu.dev
+              hello@satsu.app
             </a>
           </div>
         </div>
@@ -234,7 +234,7 @@ function EnglishContent() {
         title="Contact:"
       >
         <p>
-          Email: <a href="mailto:hello@satsu.dev" className="text-violet-400 hover:text-violet-300 border-b border-violet-500/30 hover:border-violet-500/50 pb-0.5">hello@satsu.dev</a>
+          Email: <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300 border-b border-violet-500/30 hover:border-violet-500/50 pb-0.5">hello@satsu.app</a>
         </p>
       </ContentSection>
       
@@ -294,7 +294,7 @@ function GermanContent() {
         title="Kontakt:"
       >
         <p>
-          E-Mail: <a href="mailto:hello@satsu.dev" className="text-violet-400 hover:text-violet-300 border-b border-violet-500/30 hover:border-violet-500/50 pb-0.5">hello@satsu.dev</a>
+          E-Mail: <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300 border-b border-violet-500/30 hover:border-violet-500/50 pb-0.5">hello@satsu.app</a>
         </p>
       </ContentSection>
       

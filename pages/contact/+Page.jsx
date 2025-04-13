@@ -90,7 +90,7 @@ export default function ContactPage() {
 
 function EmailCard() {
   const [copied, setCopied] = useState(false);
-  const email = "hello@satsu.dev";
+  const email = "hello@satsu.app";
   
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email);

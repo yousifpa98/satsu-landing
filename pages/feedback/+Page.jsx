@@ -219,7 +219,7 @@ function FeedbackForm({ formState, setFormState }) {
               <AlertCircle className="h-12 w-12 text-red-500 mb-4" />
               <h3 className="text-xl font-medium text-white mb-2">Something went wrong</h3>
               <p className="text-zinc-300 mb-6">
-                We couldn't send your feedback. Please try again or reach out via email at hello@satsu.dev
+                We couldn't send your feedback. Please try again or reach out via email at hello@satsu.app
               </p>
               <Button 
                 variant="outline" 
@@ -315,7 +315,7 @@ function OtherFeedbackOptions() {
       
       <div className="space-y-4">
         <a 
-          href="mailto:hello@satsu.dev" 
+          href="mailto:hello@satsu.app" 
           className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 flex items-center gap-4 hover:border-violet-800/30 transition-colors duration-300 group block"
         >
           <div className="h-10 w-10 rounded-full bg-violet-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-violet-500/20 transition-colors duration-300">
@@ -323,7 +323,7 @@ function OtherFeedbackOptions() {
           </div>
           <div>
             <div className="text-sm text-zinc-400">Email us</div>
-            <div className="text-zinc-300 font-medium">hello@satsu.dev</div>
+            <div className="text-zinc-300 font-medium">hello@satsu.app</div>
           </div>
         </a>
         

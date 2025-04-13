@@ -118,8 +118,8 @@ export default function VerifyPage() {
             {/* Help note */}
             <p className="text-sm text-zinc-500">
               Need help? Contact us at{" "}
-              <a href="mailto:hello@satsu.dev" className="text-violet-400 hover:text-violet-300">
-                hello@satsu.dev
+              <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300">
+                hello@satsu.app
               </a>
             </p>
           </motion.div>
