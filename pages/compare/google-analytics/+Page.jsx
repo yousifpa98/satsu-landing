@@ -5,7 +5,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ChevronRight, Check, X, ExternalLink } from "lucide-react";
 
+import { useHead } from '../../../lib/useHead';
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../../lib/parseHead';
+
 export default function GoogleAnalyticsComparePage() {
+  useHead(extractHeadData(Head));
   return (
     <div className="w-full">
       {/* Hero Section */}

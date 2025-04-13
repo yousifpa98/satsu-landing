@@ -10,7 +10,12 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { ChevronRight, MessageSquare } from "lucide-react";
 
+import { useHead } from '../../lib/useHead';
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function FAQPage() {
+  useHead(extractHeadData(Head));
   return (
     <div className="w-full">
       {/* Hero Section */}

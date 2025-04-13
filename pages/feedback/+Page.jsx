@@ -13,7 +13,12 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, AlertCircle, MessageSquare, ArrowRight, ThumbsUp, Mail, Twitter } from "lucide-react";
 
+import { useHead } from '../../lib/useHead';;
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function FeedbackPage() {
+  useHead(extractHeadData(Head));
   const [formState, setFormState] = useState('idle'); // idle, submitting, success, error
   
   return (

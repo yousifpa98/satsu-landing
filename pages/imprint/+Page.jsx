@@ -4,7 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { Mail, Globe, Info, ExternalLink as ExternalLinkIcon, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+import { useHead } from '../../lib/useHead';;
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function ImprintPage() {
+  useHead(extractHeadData(Head));
   const [language, setLanguage] = useState("en"); // Default to English
   const [showIndicator, setShowIndicator] = useState(false);
   

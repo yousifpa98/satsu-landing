@@ -3,7 +3,12 @@ import { motion, useInView } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, MessageSquare, Github, Heart, Zap, Sparkles, Lock } from "lucide-react";
 
+import { useHead } from '../../lib/useHead';;
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function PricingPage() {
+  useHead(extractHeadData(Head));
   return (
     <div className="w-full min-h-screen">
       {/* Hero Section */}

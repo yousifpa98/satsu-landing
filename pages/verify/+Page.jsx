@@ -9,7 +9,12 @@ import {
   RefreshCw
 } from "lucide-react";
 
+import { useHead } from '../../lib/useHead';;
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function VerifyPage() {
+  useHead(extractHeadData(Head));
   const [isResending, setIsResending] = useState(false);
   const [emailResent, setEmailResent] = useState(false);
   

@@ -15,7 +15,12 @@ import {
   Code 
 } from "lucide-react";
 
+import { useHead } from '../../../lib/useHead';
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../../lib/parseHead';
+
 export default function MatomoComparePage() {
+  useHead(extractHeadData(Head));
   return (
     <div className="w-full">
       {/* Hero Section */}

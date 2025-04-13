@@ -12,10 +12,15 @@ import {
   BarChart,
 } from "lucide-react";
 
+import { useHead } from '../../lib/useHead';;
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 // Import dashboard screenshot - replace with your actual image path
 import dashboardImage from "../../assets/dashboard.svg";
 
 export default function Page() {
+  useHead(extractHeadData(Head));
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: false, amount: 0.3 });
   const { scrollY } = useScroll();

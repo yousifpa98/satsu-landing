@@ -24,7 +24,12 @@ import {
   EyeOff
 } from "lucide-react";
 
+import { useHead } from '../../lib/useHead';;
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function SignupPage() {
+  useHead(extractHeadData(Head));
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [apiError, setApiError] = useState(null);
   const [formData, setFormData] = useState({

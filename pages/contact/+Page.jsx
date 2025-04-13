@@ -12,7 +12,12 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
+import { useHead } from '../../lib/useHead';
+import Head from './+Head.jsx';
+import { extractHeadData } from '../../lib/parseHead';
+
 export default function ContactPage() {
+  useHead(extractHeadData(Head));
   return (
     <div className="w-full">
       {/* Hero Section */}
