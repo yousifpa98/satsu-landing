@@ -1,0 +1,49 @@
+/* Add this to your global CSS file (e.g., style.css or tailwind.css) */
+
+/* For WebKit browsers (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #18181b; /* zinc-900 */
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #4c1d95; /* violet-900 */
+    border-radius: 4px;
+    border: 2px solid #18181b; /* border to match track color */
+    transition: background-color 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed; /* violet-600 */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #4c1d95 #18181b; /* thumb and track color */
+  }
+  
+  /* Ensure scrollbar styling is applied in dark mode */
+  .dark {
+    --scrollbar-thumb: #4c1d95;
+    --scrollbar-thumb-hover: #7c3aed;
+    --scrollbar-track: #18181b;
+  }
+  
+  .dark ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border: 2px solid var(--scrollbar-track);
+  }
+  
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+  }

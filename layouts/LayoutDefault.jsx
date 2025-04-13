@@ -2,7 +2,7 @@ import "./style.css";
 import "./tailwind.css";
 
 import { useState, useEffect } from "react";
-import { Menu, X, ChevronRight, ExternalLink } from "lucide-react";
+import { Menu, X, ChevronRight, ExternalLink, LogIn } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "../components/Link.jsx";
 
@@ -88,11 +88,23 @@ function Header({ scrolled }) {
         <NavLink href="/feedback">Feedback</NavLink>
       </nav>
 
-      {/* CTA Button */}
-      <div className="hidden md:block">
+      {/* CTA and Login Buttons */}
+      <div className="hidden md:flex items-center gap-3">
+        <motion.a
+          href="https://app.satsu.pro"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 text-zinc-300 hover:text-white border border-zinc-700 hover:border-zinc-600 rounded-lg font-medium text-sm transition-colors duration-200 flex items-center gap-1.5"
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.97 }}
+        >
+          <LogIn className="w-4 h-4" />
+          <span>Log in</span>
+        </motion.a>
+        
         <motion.a
           href="/signup"
-          className="ml-6 px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 flex items-center gap-1.5"
+          className="px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium text-sm transition-colors duration-200 flex items-center gap-1.5"
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
         >
@@ -163,14 +175,25 @@ function Header({ scrolled }) {
             </MobileNavLink>
 
             <motion.div
-              className="mt-4 pt-6 border-t border-zinc-800 w-40 text-center"
+              className="mt-4 pt-6 border-t border-zinc-800 w-full px-8 flex flex-col gap-3"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
               <a
+                href="https://app.satsu.pro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 border border-zinc-700 hover:border-zinc-600 text-zinc-300 hover:text-white rounded-lg font-medium text-sm transition-colors duration-200"
+                onClick={() => setOpen(false)}
+              >
+                <LogIn className="w-4 h-4" />
+                <span>Log in</span>
+              </a>
+              
+              <a
                 href="/signup"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium text-sm transition-colors duration-200"
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-medium text-sm transition-colors duration-200"
                 onClick={() => setOpen(false)}
               >
                 <span>Get Started</span>
