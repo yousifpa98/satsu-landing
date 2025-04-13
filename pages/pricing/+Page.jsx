@@ -253,7 +253,7 @@ function FeedbackCTA() {
               size="lg"
             >
               <MessageSquare className="h-4 w-4" />
-              Send us a message
+              <a href="/feedback">Send us a message</a>
             </Button>
             
             <Button 

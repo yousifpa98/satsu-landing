@@ -109,7 +109,7 @@ export default function GoogleAnalyticsComparePage() {
                 size="lg" 
                 className="bg-violet-600 hover:bg-violet-700 text-white font-medium px-6 rounded-lg flex items-center gap-2 mx-auto"
               >
-                Get Started Free
+               <a href="/signup">Get Started Free</a>
                 <ChevronRight className="h-4 w-4" />
               </Button>
             </div>

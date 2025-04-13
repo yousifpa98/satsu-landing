@@ -197,7 +197,7 @@ function MoreQuestionsCard() {
           className="bg-violet-600 hover:bg-violet-700 text-white font-medium px-6 rounded-lg flex items-center gap-2 mx-auto"
         >
           <MessageSquare className="h-4 w-4" />
-          Send Feedback
+          <a href="/feedback">Send Feedback</a>
         </Button>
       </div>
     </motion.div>

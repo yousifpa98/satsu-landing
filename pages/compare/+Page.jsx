@@ -341,7 +341,7 @@ function Conclusion() {
             size="lg" 
             className="bg-violet-600 hover:bg-violet-700 text-white font-medium px-6 rounded-lg flex items-center gap-2"
           >
-            Try Satsu Today
+            <a href="/signup">Try Satsu Today</a>
             <ChevronRight className="h-4 w-4" />
           </Button>
           
@@ -350,7 +350,7 @@ function Conclusion() {
             variant="outline" 
             className="text-zinc-200 border-zinc-700 hover:bg-zinc-800 flex items-center gap-2"
           >
-            Learn More
+            <a href="/why-satsu">Learn More</a>
             <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
