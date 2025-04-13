@@ -107,14 +107,14 @@ export default function Page() {
                     <ChevronRight className="h-4 w-4" />
                   </Button>
 
-                  <Button
+                 {/*  <Button
                     size="lg"
                     variant="outline"
                     className="text-zinc-200 border-zinc-700 hover:bg-zinc-800 flex items-center gap-2"
                   >
                     <Play className="h-4 w-4" />
                     View Live Demo
-                  </Button>
+                  </Button> */}
                 </motion.div>
               </motion.div>
             </div>
@@ -253,14 +253,14 @@ export default function Page() {
                   Get Started Free
                   <ChevronRight className="h-4 w-4" />
                 </Button>
-                <Button
+               {/*  <Button
                   size="lg"
                   variant="outline"
                   className="text-zinc-200 border-zinc-700 hover:bg-zinc-800 flex items-center gap-2"
                 >
                   <Play className="h-4 w-4" />
                   View Live Demo
-                </Button>
+                </Button> */}
               </div>
             </div>
           </motion.div>
