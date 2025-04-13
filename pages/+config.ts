@@ -11,8 +11,8 @@ export default {
   Layout,
 
   // https://vike.dev/head-tags
-  title: "Satsu – Clean Website Analytics for Developers",
-  description: "Satsu offers minimal, privacy-friendly analytics, uptime monitoring, and performance tracking. Built for developers who value clarity, control, and simplicity.",
+  title: undefined,
+  description: undefined,
 
   extends: vikeReact,
 } satisfies Config;
