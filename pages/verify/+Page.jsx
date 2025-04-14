@@ -123,8 +123,8 @@ export default function VerifyPage() {
             {/* Help note */}
             <p className="text-sm text-zinc-500">
               Need help? Contact us at{" "}
-              <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300">
-                hello@satsu.app
+              <a href="mailto:hello@satsu.pro" className="text-violet-400 hover:text-violet-300">
+                hello@satsu.pro
               </a>
             </p>
           </motion.div>

@@ -19,7 +19,7 @@ export default function Head() {
         <meta property="og:title" content="Satsu – Legal Disclosure (Imprint)" />
         <meta
           property="og:description"
-          content="Official imprint (Impressum) of Satsu in accordance with German TMG regulations. Contact: hello@satsu.app"
+          content="Official imprint (Impressum) of Satsu in accordance with German TMG regulations. Contact: hello@satsu.pro"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://satsu.app/imprint" />

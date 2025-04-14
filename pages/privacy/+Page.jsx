@@ -224,7 +224,7 @@ export default function PrivacyPage() {
               title="How can I delete my data?"
               icon={<Trash className="h-6 w-6" />}
               content={
-                <p>You can delete your account at any time via your dashboard or by emailing us at <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300">hello@satsu.app</a>. All associated data (including your sites and traffic data) will be permanently deleted from our systems.</p>
+                <p>You can delete your account at any time via your dashboard or by emailing us at <a href="mailto:hello@satsu.pro" className="text-violet-400 hover:text-violet-300">hello@satsu.pro</a>. All associated data (including your sites and traffic data) will be permanently deleted from our systems.</p>
               }
             />
             
@@ -233,7 +233,7 @@ export default function PrivacyPage() {
               title="Contact"
               icon={<Mail className="h-6 w-6" />}
               content={
-                <p>If you have any questions about how Satsu handles privacy, just email us directly: <a href="mailto:hello@satsu.app" className="text-violet-400 hover:text-violet-300">hello@satsu.app</a></p>
+                <p>If you have any questions about how Satsu handles privacy, just email us directly: <a href="mailto:hello@satsu.pro" className="text-violet-400 hover:text-violet-300">hello@satsu.pro</a></p>
               }
             />
           </div>
