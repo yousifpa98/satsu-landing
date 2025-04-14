@@ -108,7 +108,7 @@ function Header({ scrolled }) {
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
         >
-          <span>Get Started</span>
+          <span>Get Started Free</span>
           <ChevronRight className="w-4 h-4" />
         </motion.a>
       </div>
