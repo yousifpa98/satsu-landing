@@ -168,15 +168,15 @@ function ComparisonPoints() {
       title: "Script Weight & Performance",
       icon: <Zap />,
       matomo: "Tracking script is relatively heavy, often exceeding 20 KB or more depending on plugins.",
-      satsu: "Ultra-lightweight – under 3 KB – and has virtually zero performance impact. If your site performance matters (and it should), the difference is huge."
+      satsu: "Ultra-lightweight – under 6 KB – and has virtually zero performance impact. If your site performance matters (and it should), the difference is huge."
     },
     {
       id: "privacy",
       title: "Privacy & Compliance",
       icon: <Lock />,
       matomo: "Can be GDPR/CCPA compliant – but only if you configure it properly. Many features (like cookies or IP logging) are on by default.",
-      satsu: "Privacy-first by default. No cookies, no IP tracking, no fingerprinting. No consent banner required. Just ethical tracking with full compliance out of the box."
-    },
+      satsu: "Privacy-first by design. Satsu uses IP addresses only for geolocation and never links them to user profiles. No cookies, no fingerprinting, no data sharing – and no consent banner needed under most privacy laws.",
+    },      
     {
       id: "realtime",
       title: "Real-Time Analytics",

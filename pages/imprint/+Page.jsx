@@ -269,7 +269,7 @@ function EnglishContent() {
           </LinkWithIcon>
         </p>
         <p className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50 text-sm">
-          We are neither obligated nor willing to participate in dispute resolution proceedings before a consumer arbitration board.
+          We do not participate in dispute resolution procedures before consumer arbitration boards.
         </p>
       </ContentSection>
     </div>
@@ -329,7 +329,7 @@ function GermanContent() {
           </LinkWithIcon>
         </p>
         <p className="bg-zinc-800/50 rounded-lg p-4 border border-zinc-700/50 text-sm">
-          Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+          Wir nehmen nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.
         </p>
       </ContentSection>
     </div>

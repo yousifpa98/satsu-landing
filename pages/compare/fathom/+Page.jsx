@@ -159,16 +159,16 @@ function ComparisonPoints() {
       id: "script",
       title: "Script Size & Speed",
       satsu:
-        "Under 3 KB – still blazing fast, with zero impact on performance.",
+        "Under 6 KB – still blazing fast, with zero impact on performance.",
       fathom: "Around 1.5 KB – super fast.",
     },
     {
       id: "setup",
       title: "Setup Simplicity",
       satsu:
-        "Skips the account step. Just grab the script, add it to your site, and you're done. It's developer-first and frictionless – ideal for tiny sites, static pages, and fast prototyping.",
+        "Sign up, add your site, and drop the script into your <head>. That’s it. No tag managers, no waiting – just clean tracking, built for developers.",
       fathom: "Requires a quick signup and gives you a script to embed.",
-    },
+    },    
     {
       id: "realtime",
       title: "Real-Time Tracking",
