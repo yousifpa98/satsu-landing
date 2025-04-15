@@ -84,6 +84,7 @@ function Header({ scrolled }) {
         <NavLink href="/why-satsu">Why Satsu</NavLink>
         <NavLink href="/pricing">Pricing</NavLink>
         <NavLink href="/compare">Compare</NavLink>
+        <NavLink href="/roadmap">Roadmap</NavLink>
         <NavLink href="/faq">FAQ</NavLink>
         <NavLink href="/feedback">Feedback</NavLink>
       </nav>
@@ -166,6 +167,9 @@ function Header({ scrolled }) {
             </MobileNavLink>
             <MobileNavLink href="/compare" onClick={() => setOpen(false)}>
               Compare
+            </MobileNavLink>
+            <MobileNavLink href="/roadmap" onClick={() => setOpen(false)}>
+              Roadmap
             </MobileNavLink>
             <MobileNavLink href="/faq" onClick={() => setOpen(false)}>
               FAQ
@@ -313,6 +317,11 @@ function Footer() {
               <li>
                 <Link href="/pricing" className="hover:text-white transition">
                   Pricing
+                </Link>
+              </li>
+              <li>
+              <Link href="/roadmap" className="hover:text-white transition">
+                  Roadmap
                 </Link>
               </li>
               <li>
