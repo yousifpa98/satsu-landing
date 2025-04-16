@@ -22,8 +22,8 @@ export default function Head() {
           content="Create your free Satsu account and get access to simple, fast, and ethical analytics. No cookies, no consent banners."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/signup" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/signup" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Join Satsu and start tracking your traffic with a developer-first, cookie-free analytics tool. Real-time, fast, and compliant."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/signup" />
+        <link rel="canonical" href="https://satsu.pro/signup" />
       </>
     );
   }

@@ -22,8 +22,8 @@ export default function Head() {
           content="Reach out to the creators of Satsu. No support ticket systems or forms – just direct contact, like it should be."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/contact" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/contact" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Have questions or feedback? Contact Satsu via email or Twitter – no forms, no bots."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/contact" />
+        <link rel="canonical" href="https://satsu.pro/contact" />
       </>
     );
   }

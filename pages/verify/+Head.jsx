@@ -22,8 +22,8 @@ export default function Head() {
           content="Confirm your email address to access your Satsu dashboard. Start tracking with cookie-free, privacy-first analytics."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/verify" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/verify" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="You're almost there. Just verify your email to activate your Satsu account and start using your private analytics dashboard."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/verify" />
+        <link rel="canonical" href="https://satsu.pro/verify" />
       </>
     );
   }

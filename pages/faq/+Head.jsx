@@ -22,8 +22,8 @@ export default function Head() {
           content="Got questions about Satsu? Learn how our privacy-first analytics works, what's tracked, and how to get started."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/faq" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/faq" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Answers to common questions about Satsu's setup, tracking behavior, GDPR compliance, and cookie-free usage."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/faq" />
+        <link rel="canonical" href="https://satsu.pro/faq" />
       </>
     );
   }

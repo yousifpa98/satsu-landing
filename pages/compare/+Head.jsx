@@ -24,8 +24,8 @@ export default function Head() {
           content="Side-by-side comparison of Satsu and major analytics tools. Fast, privacy-first, and made for developers."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/compare" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/compare" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -34,10 +34,10 @@ export default function Head() {
           name="twitter:description"
           content="A simple breakdown of how Satsu compares to other analytics tools. Built for devs who care about privacy and speed."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/compare" />
+        <link rel="canonical" href="https://satsu.pro/compare" />
       </>
     );
   }

@@ -22,8 +22,8 @@ export default function Head() {
           content="Satsu is GDPR-compliant, cookie-free, and doesn’t collect personal data. See how we keep your visitors safe and anonymous."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/privacy" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/privacy" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="We don’t track people. Satsu collects only what’s necessary to show you anonymized traffic insights – and nothing else."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/privacy" />
+        <link rel="canonical" href="https://satsu.pro/privacy" />
       </>
     );
   }

@@ -22,8 +22,8 @@ export default function Head() {
           content="We’re building Satsu in public – and your input matters. Drop us your thoughts, ideas, or issues anytime."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/feedback" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/feedback" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Share your thoughts on Satsu. We’re listening to every suggestion – and improving fast."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/feedback" />
+        <link rel="canonical" href="https://satsu.pro/feedback" />
       </>
     );
   }

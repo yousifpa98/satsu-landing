@@ -22,8 +22,8 @@ export default function Head() {
           content="Choose from free and paid Satsu plans. Get real-time analytics with no cookies, no bloat, and no lock-in."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/pricing" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/pricing" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Satsu is free while in development. Our pricing stays indie-friendly, and the core features will always be free."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/pricing" />
+        <link rel="canonical" href="https://satsu.pro/pricing" />
       </>
     );
   }

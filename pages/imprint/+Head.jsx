@@ -22,8 +22,8 @@ export default function Head() {
           content="Official imprint (Impressum) of Satsu in accordance with German TMG regulations. Contact: hello@satsu.pro"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/imprint" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/imprint" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Legal disclosure and contact information for Satsu, operated by Yousif Paulus in Germany."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/imprint" />
+        <link rel="canonical" href="https://satsu.pro/imprint" />
       </>
     );
   }

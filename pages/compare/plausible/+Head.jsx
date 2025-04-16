@@ -22,8 +22,8 @@ export default function Head() {
           content="Looking for an alternative to Plausible? See how Satsu compares on privacy, performance, simplicity, and price – built for devs."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/compare/plausible" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/compare/plausible" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Compare Satsu and Plausible. Find out which analytics tool is more dev-focused, cookie-free, and built to stay fast and affordable."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/compare/plausible" />
+        <link rel="canonical" href="https://satsu.pro/compare/plausible" />
       </>
     );
   }

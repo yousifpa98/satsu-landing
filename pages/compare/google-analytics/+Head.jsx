@@ -22,8 +22,8 @@ export default function Head() {
           content="Looking for a privacy-friendly alternative to Google Analytics? Satsu offers real-time stats with no cookies or banners required."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/compare/google-analytics" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/compare/google-analytics" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Compare Satsu to Google Analytics. See why developers are switching to a faster, simpler, privacy-first tracking solution."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/compare/google-analytics" />
+        <link rel="canonical" href="https://satsu.pro/compare/google-analytics" />
       </>
     );
   }

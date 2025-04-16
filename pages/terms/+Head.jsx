@@ -22,8 +22,8 @@ export default function Head() {
           content="Our terms outline what you can expect when using Satsu, and what’s expected of you. Fair, transparent, and built for indie devs."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://satsu.app/terms" />
-        <meta property="og:image" content="https://satsu.app/og-cover.jpg" />
+        <meta property="og:url" content="https://satsu.pro/terms" />
+        <meta property="og:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -32,10 +32,10 @@ export default function Head() {
           name="twitter:description"
           content="Review the Terms of Service for Satsu. Clear guidelines for using our cookie-free, privacy-first analytics tool."
         />
-        <meta name="twitter:image" content="https://satsu.app/og-cover.jpg" />
+        <meta name="twitter:image" content="https://satsu.pro/og-cover.jpg" />
   
         {/* Canonical */}
-        <link rel="canonical" href="https://satsu.app/terms" />
+        <link rel="canonical" href="https://satsu.pro/terms" />
       </>
     );
   }

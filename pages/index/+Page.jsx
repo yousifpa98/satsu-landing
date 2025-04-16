@@ -173,7 +173,7 @@ export default function Page() {
                     </div>
                     <pre className="text-xs text-indigo-300 font-mono whitespace-pre-wrap">
                       <code>
-                        {`<script src="https://cdn.satsu.app/s.js"
+                        {`<script src="https://cdn.satsu.pro/s.js"
   data-site="YOUR_ID"
   async></script>`}
                       </code>
