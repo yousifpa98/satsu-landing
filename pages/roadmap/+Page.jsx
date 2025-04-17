@@ -86,9 +86,9 @@ export default function RoadmapPage() {
               subtitle="What we're working on"
               icon={<Clock className="h-6 w-6" />}
               features={[
-                { name: "Export pageview data (CSV & JSON)", completed: false },
+                { name: "Export pageview data (CSV & JSON)", completed: true },
                 { name: "Basic conversion goals (e.g. visits to /thank-you)", completed: false },
-                { name: "Daily & weekly email summaries", completed: false },
+                { name: "Daily & weekly email summaries", completed: true },
                 { name: "Changelog inside the dashboard", completed: false },
                 { name: "Anonymized IPs & GDPR-safe defaults", completed: true },
               ]}
