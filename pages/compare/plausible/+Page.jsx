@@ -143,7 +143,7 @@ function KeyDifferences() {
     {
       id: "script",
       title: "Script Size & Speed",
-      description: "Plausible's script is impressively small (~1 KB), which makes it great for performance. Satsu is also ultra-lightweight – around 6 KB – and optimized to have zero noticeable impact on page load or Core Web Vitals.",
+      description: "Plausible's script is impressively small (~1 KB), which makes it great for performance. Satsu is also ultra-lightweight – around 3 KB – and optimized to have zero noticeable impact on page load or Core Web Vitals.",
       icon: <Zap className="h-5 w-5 text-violet-400" />
     },
     {

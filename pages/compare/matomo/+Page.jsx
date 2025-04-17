@@ -168,7 +168,7 @@ function ComparisonPoints() {
       title: "Script Weight & Performance",
       icon: <Zap />,
       matomo: "Tracking script is relatively heavy, often exceeding 20 KB or more depending on plugins.",
-      satsu: "Ultra-lightweight – under 6 KB – and has virtually zero performance impact. If your site performance matters (and it should), the difference is huge."
+      satsu: "Ultra-lightweight – ~3 KB – and has virtually zero performance impact. If your site performance matters (and it should), the difference is huge."
     },
     {
       id: "privacy",

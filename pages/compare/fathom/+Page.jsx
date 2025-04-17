@@ -159,7 +159,7 @@ function ComparisonPoints() {
       id: "script",
       title: "Script Size & Speed",
       satsu:
-        "Under 6 KB – still blazing fast, with zero impact on performance.",
+        "~3 KB – still blazing fast, with zero impact on performance.",
       fathom: "Around 1.5 KB – super fast.",
     },
     {

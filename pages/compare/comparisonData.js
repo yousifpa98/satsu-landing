@@ -26,7 +26,7 @@ export const features = [
       id: "script_size",
       name: "Lightweight Script",
       values: {
-        satsu: "< 6 KB",
+        satsu: "~ 3 KB",
         google_analytics: "40-100 KB",
         plausible: "~ 1 KB",
         fathom: "~ 1.5 KB",

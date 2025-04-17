@@ -149,7 +149,7 @@ function ComparisonReasons() {
       id: "lightweight",
       title: "Lightweight and Fast",
       satsu:
-        "Loads in under 6 KB and has zero impact on performance. Your site stays fast, your users stay happy.",
+        "Loads in ~3 KB and has zero impact on performance. Your site stays fast, your users stay happy.",
       ga: "Adds 40–100 KB+ to your site, and often includes third-party calls and delays.",
     },
     {
@@ -249,7 +249,7 @@ function AtAGlance() {
   const features = [
     "No cookies or banners required",
     "GDPR and CCPA compliant",
-    "Under 6 KB script",
+    "~3 KB script",
     "Real-time dashboard",
     "Zero personal data collected",
     "Hosted, simple, and fast",
