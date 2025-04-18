@@ -88,6 +88,7 @@ function Header({ scrolled }) {
         <NavLink href="/roadmap">Roadmap</NavLink>
         <NavLink href="/faq">FAQ</NavLink>
         <NavLink href="/feedback">Feedback</NavLink>
+        <NavLink href="https://demo.satsu.pro">Demo</NavLink>
       </nav>
 
       {/* CTA and Login Buttons */}
@@ -180,6 +181,9 @@ function Header({ scrolled }) {
             </MobileNavLink>
             <MobileNavLink href="/feedback" onClick={() => setOpen(false)}>
               Feedback
+            </MobileNavLink>
+            <MobileNavLink href="https://demo.satsu.pro" onClick={() => setOpen(false)}>
+              Demo
             </MobileNavLink>
 
             <motion.div
@@ -368,6 +372,11 @@ function Footer() {
                   Feedback
                 </Link>
               </li>
+              <li>
+                <Link href="https://demo.satsu.pro" className="hover:text-white transition">
+                  Demo
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -426,6 +435,9 @@ function Footer() {
             </Link>
             <Link href="/contact" className="hover:text-white transition">
               Contact
+            </Link>
+            <Link href="https://demo.satsu.pro" className="hover:text-white transition">
+              Demo
             </Link>
           </div>
         </div>
