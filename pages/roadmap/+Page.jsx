@@ -89,7 +89,7 @@ export default function RoadmapPage() {
                 { name: "Export pageview data (CSV & JSON)", completed: true },
                 { name: "Basic conversion goals (e.g. visits to /thank-you)", completed: false },
                 { name: "Daily & weekly email summaries", completed: true },
-                { name: "Changelog inside the dashboard", completed: false },
+                { name: "Changelog inside the dashboard", completed: true },
                 { name: "Anonymized IPs & GDPR-safe defaults", completed: true },
               ]}
               gradient="from-emerald-900/20 to-emerald-900/10"
