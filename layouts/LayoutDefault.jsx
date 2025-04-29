@@ -182,7 +182,10 @@ function Header({ scrolled }) {
             <MobileNavLink href="/feedback" onClick={() => setOpen(false)}>
               Feedback
             </MobileNavLink>
-            <MobileNavLink href="https://demo.satsu.pro" onClick={() => setOpen(false)}>
+            <MobileNavLink
+              href="https://demo.satsu.pro"
+              onClick={() => setOpen(false)}
+            >
               Demo
             </MobileNavLink>
 
@@ -301,7 +304,7 @@ function Footer() {
             </p>
             <div className="mt-4 flex gap-4">
               <a
-                href="https://twitter.com"
+                href="https://www.threads.com/@satsuapp"
                 className="text-zinc-500 hover:text-zinc-300 transition-colors"
               >
                 <svg
@@ -315,7 +318,9 @@ function Footer() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M9 9a3 3 0 1 1 6 0v1.5a1.5 1.5 0 0 0 3 0V9" />
+                  <path d="M9 9v4.5a3 3 0 0 0 6 0v-1" />
                 </svg>
               </a>
               <a
@@ -347,7 +352,8 @@ function Footer() {
                 <Link href="/why-satsu" className="hover:text-white transition">
                   Why Satsu
                 </Link>
-              </li><li>
+              </li>
+              <li>
                 <Link href="/features" className="hover:text-white transition">
                   Features
                 </Link>
@@ -373,7 +379,10 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://demo.satsu.pro" className="hover:text-white transition">
+                <Link
+                  href="https://demo.satsu.pro"
+                  className="hover:text-white transition"
+                >
                   Demo
                 </Link>
               </li>
@@ -436,7 +445,10 @@ function Footer() {
             <Link href="/contact" className="hover:text-white transition">
               Contact
             </Link>
-            <Link href="https://demo.satsu.pro" className="hover:text-white transition">
+            <Link
+              href="https://demo.satsu.pro"
+              className="hover:text-white transition"
+            >
               Demo
             </Link>
           </div>

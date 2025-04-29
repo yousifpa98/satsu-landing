@@ -11,7 +11,7 @@ import {
   CardTitle 
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, AlertCircle, MessageSquare, ArrowRight, ThumbsUp, Mail, Twitter } from "lucide-react";
+import { CheckCircle, AlertCircle, MessageSquare, ArrowRight, ThumbsUp, Mail, AtSign } from "lucide-react";
 
 import { useHead } from '../../lib/useHead';;
 import Head from './+Head.jsx';
@@ -333,16 +333,16 @@ function OtherFeedbackOptions() {
         </a>
         
         <a 
-          href="https://twitter.com/satsuapp" 
+          href="https://www.threads.net/@satsuapp" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-zinc-900 border border-zinc-800 rounded-lg p-4 flex items-center gap-4 hover:border-violet-800/30 transition-colors duration-300 group block"
         >
           <div className="h-10 w-10 rounded-full bg-violet-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-violet-500/20 transition-colors duration-300">
-            <Twitter className="h-5 w-5 text-violet-400" />
+            <AtSign className="h-5 w-5 text-violet-400" />
           </div>
           <div>
-            <div className="text-sm text-zinc-400">Twitter</div>
+            <div className="text-sm text-zinc-400">Threads</div>
             <div className="text-zinc-300 font-medium">@satsuapp</div>
           </div>
         </a>

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { 
   Mail, 
-  Twitter, 
+  AtSign, 
   MessageCircle, 
   ArrowRight,
   Copy,
@@ -77,7 +77,7 @@ export default function ContactPage() {
         <div className="container max-w-4xl mx-auto px-4 sm:px-6">
           <div className="grid gap-8 max-w-2xl mx-auto">
             <EmailCard />
-            <TwitterCard />
+            <ThreadsCard />
             <FeedbackCard />
           </div>
         </div>
@@ -157,7 +157,7 @@ function EmailCard() {
   );
 }
 
-function TwitterCard() {
+function ThreadsCard() {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -166,24 +166,24 @@ function TwitterCard() {
       className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 overflow-hidden relative"
     >
       <div className="flex items-start gap-5">
-        <div className="h-12 w-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 flex-shrink-0">
-          <Twitter className="h-6 w-6" />
+        <div className="h-12 w-12 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-400 flex-shrink-0">
+          <AtSign className="h-6 w-6" />
         </div>
         
         <div className="flex-1">
-          <h3 className="text-xl font-semibold text-white mb-2">Twitter</h3>
+          <h3 className="text-xl font-semibold text-white mb-2">Threads</h3>
           <p className="text-zinc-400 mb-4">
             We post updates, dev notes, and random thoughts.
           </p>
           
           <a 
-            href="https://twitter.com/satsuapp"
+            href="https://www.threads.com/@satsuapp"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 transition-colors text-white px-4 py-2 rounded-lg inline-flex items-center gap-2"
+            className="bg-purple-600 hover:bg-purple-700 transition-colors text-white px-4 py-2 rounded-lg inline-flex items-center gap-1"
           >
-            <Twitter className="h-4 w-4" />
-            <span>@satsuapp</span>
+            <AtSign className="h-4 w-4" />
+            <span>satsuapp</span>
           </a>
         </div>
       </div>
